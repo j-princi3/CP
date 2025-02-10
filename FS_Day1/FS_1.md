@@ -1,3 +1,4 @@
+```
 1)Learn basics of java
 --access modifier
 --4 pillars of java
@@ -22,5 +23,6 @@ SOP(i+" "+j);
 13)What is c++ (portable language)
 14)What is Anonymous object
 15)Multiple classes in a file having public static void main() in it , then how to run specific class?(multiple classes get created while compiling , then run that particular class)
-16) Difference between StringBuilder (thread safe) and string buffer(mutable, thread safe, multiple thread)
+1) Difference between StringBuilder (thread safe) and string buffer(mutable, thread safe, multiple thread)
+```
 
