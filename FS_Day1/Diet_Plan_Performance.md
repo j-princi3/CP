@@ -1,3 +1,5 @@
+#slidingwindow
+#basic
 A dieter records the number of calories they consume each day in an array calories, 
 where calories[i] represents the calories consumed on the i-th day. 
 

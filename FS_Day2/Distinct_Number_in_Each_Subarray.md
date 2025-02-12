@@ -1,3 +1,5 @@
+#slidingwindow 
+#basic 
 There are N small cartoons, and each cartoon contains a balloon of a specific color, represented by an integer.
 
 You need to pick P consecutive cartoons at a time and determine the number of unique colored balloons within that selection. 

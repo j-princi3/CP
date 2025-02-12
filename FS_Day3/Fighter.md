@@ -1,3 +1,5 @@
+#easy
+#slidingwindow 
 There is a Game where a fighter consumes power[i] on the i-th hour. 
 
 Given an integer k, for every consecutive sequence of k hours (power[i], 

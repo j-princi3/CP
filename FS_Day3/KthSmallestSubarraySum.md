@@ -1,3 +1,6 @@
+#medium
+#binarysearch
+#slidingwindow 
 A tenth standard student has been given a task to analyze a set of P subject marks.
 
 Given an integer I, student needs to determine the I-th least sum among all possible contiguous subarrays of the marks list.

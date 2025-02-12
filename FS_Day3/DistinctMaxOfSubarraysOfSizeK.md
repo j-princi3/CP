@@ -1,3 +1,6 @@
+#easy 
+#slidingwindow 
+
 Mr.Ram is a sales manager of Dmart, for his analysis he has to monitor 
 sales of Dmart every day. He need to send report of maximum sales 
 of every K consecutive days from given N number of days sales.

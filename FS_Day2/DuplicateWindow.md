@@ -1,3 +1,4 @@
+#basic #slidingwindow 
 Given an integer array of nums and an integer window size X, 
 return true if there are duplicate values (nums[i]== nums[j])in that Window(X)
 X size is always <= abs(i - j) where i and j are two distinct indices of array.
@@ -10,7 +11,7 @@ Line-3: An integer X, window size
 
 Output Format:
 --------------
-Line-1: Booelan value, true/false
+Line-1: Boolean value, true/false
 
 
 Sample Input-1:

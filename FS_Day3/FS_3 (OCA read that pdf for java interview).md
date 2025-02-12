@@ -1,3 +1,4 @@
+#oca
 -> why is Constructor important in java
 -> why do we use getter and setter in constructor?(used for data encapsulation and data hiding if data should be protected)
 -> If interviewer ask to design a application or program try using classes and object

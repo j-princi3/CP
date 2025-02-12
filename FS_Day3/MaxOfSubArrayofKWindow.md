@@ -1,3 +1,4 @@
+#medium #slidingwindow 
 You are given an array of N heights. 
 Your task is to find the maximum sum of any contiguous subarray of length L, 
 such that all the elements in the subarray are distinct.

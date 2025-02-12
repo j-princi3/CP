@@ -1,3 +1,5 @@
+#slidingwindow 
+#basic 
 You are given an array consisting of N integers, and an integer, K. 
 Your task is to determine the minimum element in subarrays of size K.
 
