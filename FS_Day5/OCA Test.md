@@ -23,6 +23,13 @@ d) none of these
 
 
 
+
+
+
+
+
+
+
 Ans: b
 
 ```

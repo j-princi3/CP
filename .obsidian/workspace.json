@@ -11,14 +11,12 @@
             "id": "a631d38caa2d1d3d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "FS_Day5/TwoSum.md",
-                "mode": "source",
-                "source": false
+                "file": "FS_Day1/[JAVA][OCA Oracle Certified Associate Java SE 8 Programmer I Study Guide Exam 1Z0-808].pdf"
               },
-              "icon": "lucide-file",
-              "title": "TwoSum"
+              "icon": "lucide-file-text",
+              "title": "[JAVA][OCA Oracle Certified Associate Java SE 8 Programmer I Study Guide Exam 1Z0-808]"
             }
           }
         ]
@@ -170,11 +168,17 @@
   },
   "active": "a631d38caa2d1d3d",
   "lastOpenFiles": [
-    "FS_Day5/RotateArray.md",
-    "FS_Day5/OCA Test.md",
-    "FS_Day5/MiddleElementLL.md",
+    "FS_Day6/Closest Sum.md",
+    "FS_Day6/Palindrome_List.md",
     "README.md",
     "FS_Day5/TwoSum.md",
+    "FS_Day5/RotateArray.md",
+    "FS_Day5/MiddleElementLL.md",
+    "FS_Day5/Reverse Vowel String.md",
+    "FS_Day6/Untitled 2.md",
+    "FS_Day1/[JAVA][OCA Oracle Certified Associate Java SE 8 Programmer I Study Guide Exam 1Z0-808].pdf",
+    "FS_Day5/OCA Test.md",
+    "FS_Day6",
     "FS_Day4/FS_4.md",
     "FS_Day2/FS_2.md",
     "FS_Day1/FS_1.md",
@@ -192,13 +196,8 @@
     "FS_Day2/Distinct_Number_in_Each_Subarray.md",
     "FS_Day1/SmallestElement.md",
     "FS_Day1/Diet_Plan_Performance.md",
-    "FS_Day4/Program 7.md",
-    "FS_Day4/Program 6.md",
-    "FS_Day4/Program 8.md",
     "FS_Day5",
     "FS_Day4",
-    "FS_Day1/[JAVA][OCA Oracle Certified Associate Java SE 8 Programmer I Study Guide Exam 1Z0-808].pdf",
-    "FS_Day1/mutable1.md",
     "Program 1",
     "FS_Day3",
     "FS_Day2"
