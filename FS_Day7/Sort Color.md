@@ -1,3 +1,5 @@
+#3-pointer
+#medium 
 You are given an array nums of size n, where each element represents an object colored red, white, or blue. 
 Your task is to sort the array in-place so that all objects of the same color are adjacent, following the order:
 -> Red (0)

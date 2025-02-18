@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FS_Day7/Sort Color.md",
+                "file": "FS_Day8/Valid_Word_Abbreviation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sort Color"
+              "title": "Valid_Word_Abbreviation"
             }
           }
         ]
@@ -170,12 +170,16 @@
   },
   "active": "a631d38caa2d1d3d",
   "lastOpenFiles": [
+    "FS_Day8/ClosestTripletSum.md",
+    "FS_Day8/Three_Sum_Closest.md",
     "FS_Day7/MinNoOfRefill.md",
+    "FS_Day7/Sort Color.md",
+    "FS_Day8/Valid_Word_Abbreviation.md",
+    "FS_Day8",
     "FS_Day5/RotateArray.md",
     "FS_Day5/TwoSum.md",
     "FS_Day5/MiddleElementLL.md",
     "FS_Day5/Reverse Vowel String.md",
-    "FS_Day7/Sort Color.md",
     "FS_Day6/Palindrome_List.md",
     "FS_Day6/Closest Sum.md",
     "FS_Day4/Recolor.md",
@@ -196,9 +200,6 @@
     "FS_Day3/KthSmallestSubarraySum.md",
     "FS_Day4/Flexible_Sliding_Window.md",
     "FS_Day4/Boat.md",
-    "FS_Day3/Fighter.md",
-    "FS_Day2/DuplicateWindow.md",
-    "FS_Day2/Distinct_Number_in_Each_Subarray.md",
     "FS_Day5",
     "FS_Day4",
     "Program 1",

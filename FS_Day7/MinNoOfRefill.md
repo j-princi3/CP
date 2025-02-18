@@ -1,3 +1,4 @@
+#2-pointer #medium 
 Andy and Berry are serving water to N guests seated in a row. 
 The guests are labeled from 0 to N-1, where the i-th guest is seated at position x = i.
 
