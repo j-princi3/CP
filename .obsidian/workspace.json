@@ -11,12 +11,14 @@
             "id": "a631d38caa2d1d3d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "FS_Day1/[JAVA][OCA Oracle Certified Associate Java SE 8 Programmer I Study Guide Exam 1Z0-808].pdf"
+                "file": "FS_Day7/Sort Color.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "[JAVA][OCA Oracle Certified Associate Java SE 8 Programmer I Study Guide Exam 1Z0-808]"
+              "icon": "lucide-file",
+              "title": "Sort Color"
             }
           }
         ]
@@ -168,15 +170,21 @@
   },
   "active": "a631d38caa2d1d3d",
   "lastOpenFiles": [
-    "FS_Day6/Closest Sum.md",
-    "FS_Day6/Palindrome_List.md",
-    "README.md",
-    "FS_Day5/TwoSum.md",
+    "FS_Day7/MinNoOfRefill.md",
     "FS_Day5/RotateArray.md",
+    "FS_Day5/TwoSum.md",
     "FS_Day5/MiddleElementLL.md",
     "FS_Day5/Reverse Vowel String.md",
-    "FS_Day6/Untitled 2.md",
+    "FS_Day7/Sort Color.md",
+    "FS_Day6/Palindrome_List.md",
+    "FS_Day6/Closest Sum.md",
+    "FS_Day4/Recolor.md",
+    "FS_Day7",
+    "FS_Day4/Fruits.md",
+    "FS_Day4/GoodStrings.md",
     "FS_Day1/[JAVA][OCA Oracle Certified Associate Java SE 8 Programmer I Study Guide Exam 1Z0-808].pdf",
+    "README.md",
+    "FS_Day6/Untitled 2.md",
     "FS_Day5/OCA Test.md",
     "FS_Day6",
     "FS_Day4/FS_4.md",
@@ -186,16 +194,11 @@
     "FS_Day3/MaxOfSubArrayofKWindow.md",
     "FS_Day3/DistinctMaxOfSubarraysOfSizeK.md",
     "FS_Day3/KthSmallestSubarraySum.md",
-    "FS_Day4/Recolor.md",
-    "FS_Day4/GoodStrings.md",
-    "FS_Day4/Fruits.md",
     "FS_Day4/Flexible_Sliding_Window.md",
     "FS_Day4/Boat.md",
     "FS_Day3/Fighter.md",
     "FS_Day2/DuplicateWindow.md",
     "FS_Day2/Distinct_Number_in_Each_Subarray.md",
-    "FS_Day1/SmallestElement.md",
-    "FS_Day1/Diet_Plan_Performance.md",
     "FS_Day5",
     "FS_Day4",
     "Program 1",

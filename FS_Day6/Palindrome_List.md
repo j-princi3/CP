@@ -1,6 +1,8 @@
 #2-pointer 
 #singlylinkedlist 
+#logicaloperatorBitwiseoperator
 #medium 
+
 Cliff Shaw is working on the singly linked list.
 He is given a list of boxes arranged as singly linked list,
 where each box is printed a positive number on it.
