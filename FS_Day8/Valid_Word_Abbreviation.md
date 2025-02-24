@@ -43,50 +43,53 @@ Auxiliary Space:  O(1).
 
 ```java
 import java.util.*;
-
-class Solution {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String s = sc.next();
-        String abbr = sc.next();
-        System.out.print(getValidityCheck(s, abbr));
-        sc.close();
+class ValidWordAbbreviation{
+    public static void main (String[] args) {
+        Scanner sc=new Scanner(System.in);
+        String s=sc.next();
+        String abbr=sc.next();
+        System.out.print(getValidityCheck(s,abbr));
     }
-
-    static boolean getValidityCheck(String s, String abbr) {
-        int aIndex = 0;  
-        int sIndex = 0;  
-        
-        while (aIndex < abbr.length()) {
+    static boolean getValidityCheck(String s,String abbr){
+        int aIndex=0;
+        int sIndex=0;
+        while(aIndex<abbr.length()){
+            String digits="";
             
-            if (Character.isDigit(abbr.charAt(aIndex))) {
-                if (abbr.charAt(aIndex) == '0') {
-                    return false;
-                }
-
-                int num = 0;
-                while (aIndex < abbr.length() && Character.isDigit(abbr.charAt(aIndex))) {
-                    num = num * 10 + (abbr.charAt(aIndex) - '0'); 
-                    aIndex++;
-                }
-
-                sIndex += num; 
-
-                if (sIndex > s.length()) { 
-                    return false;
-                }
-            } 
+            if( abbr.charAt(aIndex)=='0'){
+                return false;
+            }
+            while(aIndex<abbr.length() && abbr.charAt(aIndex)>='0' && abbr.charAt(aIndex)<='9'){
+                
+                digits+=abbr.charAt(aIndex);
+                
+                aIndex++;
+                
+            }
             
-            else {
-                if (sIndex >= s.length() || abbr.charAt(aIndex) != s.charAt(sIndex)) {
-                    return false; 
-                }
+            if(!digits.equals("")){
+                sIndex+=Long.parseLong(digits);
+                
+            }
+            
+            
+            if(sIndex>s.length() || aIndex>abbr.length() ||(aIndex<abbr.length() && sIndex==s.length())){
+                return false;
+            }else if(sIndex<s.length() && aIndex<abbr.length() && abbr.charAt(aIndex)==s.charAt(sIndex)){
+                
                 aIndex++;
                 sIndex++;
+            }else if(sIndex<s.length() && aIndex<abbr.length() && abbr.charAt(aIndex)!=s.charAt(sIndex)){
+                
+                return false;
             }
+            
+            
         }
-
-        return sIndex == s.length(); 
+        if(sIndex<s.length() ||aIndex<abbr.length() ){
+            return false;
+        }
+        return true;
     }
 }
 ```
