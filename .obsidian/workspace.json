@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FS_Day14/Distinct_Shapes.md",
+                "file": "FS_Day15/RemoveKdigits.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Distinct_Shapes"
+              "title": "RemoveKdigits"
             }
           }
         ]
@@ -170,9 +170,12 @@
   },
   "active": "5ff715d95009e154",
   "lastOpenFiles": [
+    "FS_Day15/maxSum.md",
+    "FS_Day15/RemoveKdigits.md",
+    "FS_Day14/Distinct_Shapes.md",
+    "FS_Day15",
     "FS_Day14/Closed_Brackets.md",
     "FS_Day12/ImpossibleOr_Bit_Manipulation.md",
-    "FS_Day14/Distinct_Shapes.md",
     "FS_Day1/FS_1.md",
     "FS_Day14",
     "FS_Day1/[JAVA][OCA Oracle Certified Associate Java SE 8 Programmer I Study Guide Exam 1Z0-808].pdf",
@@ -202,9 +205,6 @@
     "Test.java",
     "solu.java",
     "FS_Day10",
-    "FS_Day7/MinNoOfRefill.md",
-    "FS_Day7/Sort Color.md",
-    "FS_Day8",
-    "FS_Day5/RotateArray.md"
+    "FS_Day7/MinNoOfRefill.md"
   ]
 }
