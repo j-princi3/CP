@@ -54,3 +54,43 @@ Constraints:
 1 <= time.length <= 10^5
 1 <= time[i], totalTrips <= 10^7
 
+```java
+import java.util.*;
+class BinaryTrips{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int arr[]=new int[n];
+        for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
+        }
+        int target=sc.nextInt();
+        System.out.println(getBinaryTrips(arr,n,target));
+    }
+    static int getBinaryTrips(int arr[],int n,int target){
+        Arrays.sort(arr);
+        int low=1;
+        int high=target*arr[0];
+        
+        while(low<high){
+            int mid=(low+high)/2;
+            if(getTrips(mid,arr,n,target)){
+                high=mid;
+            }else{
+                low=mid+1;
+            }
+        }
+        return low;
+    }
+    static boolean getTrips(int mid,int arr[],int n,int target){
+        int s=0;
+        for(int i=0;i<n;i++){
+            s+=mid/arr[i];
+        }
+        if(s>=target){
+            return true;
+        }
+        return false;
+    }
+}
+```

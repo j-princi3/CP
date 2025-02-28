@@ -25,5 +25,7 @@ SOP(i+" "+j);
 14)What is Anonymous object
 15)Multiple classes in a file having public static void main() in it , then how to run specific class?(multiple classes get created while compiling , then run that particular class)
 1) Difference between StringBuilder (thread safe) and string buffer(mutable, thread safe, multiple thread)
+2) IT IS BETTER TO GET COMPILE TIME THAN RUN TIME EXCEPTION
+3) Why do we prefer generics over non generics? example about 
 ```
 

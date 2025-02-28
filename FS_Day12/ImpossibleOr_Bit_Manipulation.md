@@ -48,28 +48,22 @@ class ImpossibleOr{
         System.out.print(getMinNotExpressible(arr,n));
     }
     static int getMinNotExpressible(int arr[],int n){
-        ArrayList<Integer> res=new ArrayList<>();
+        Set<Integer> res=new HashSet<>();
         for(int i=0;i<n;i++){
-            int sum=0;
-            for(int j=i;j<n;j++){
-                sum=sum | arr[j];
-                
-                if(!res.contains(sum)){
-                    res.add(sum);
-                }
-            }
+            res.add(arr[i]);
         }
-        Collections.sort(res);
+        
         int i=1;
-        int max=res.get(res.size()-1);
-        while(i<max){
+        while(true){
             if(!res.contains(i)){
-                return i;
+                break;
             }
-            i++;
+            i=i<<1;
         }
-        return max+1;
+        return i;
     }
 }
+//sudo yum -y install amazon-efs-util
+
 
 ```
