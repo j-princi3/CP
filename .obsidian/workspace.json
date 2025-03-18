@@ -11,14 +11,12 @@
             "id": "5ff715d95009e154",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "FS_Day21/Max_Score.md",
-                "mode": "source",
-                "source": false
+                "file": "mcq/Quiz_SQL_Constraints_ Attempt review.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Max_Score"
+              "icon": "lucide-file-text",
+              "title": "Quiz_SQL_Constraints_ Attempt review"
             }
           }
         ]
@@ -170,41 +168,40 @@
   },
   "active": "5ff715d95009e154",
   "lastOpenFiles": [
-    "FS_Day21/K_Most_Frquency.md",
+    "mcq/12-02-25_MCQs.md",
+    "mcq/quiz4 (1).md",
+    "mcq/quiz3_test (1).md",
+    "mcq/Quiz2.md",
+    "mcq/Quiz_SQL_Constraints_ Attempt review.pdf",
+    "mcq/Java Interview Snippets _ 21Feb (1).md",
+    "Queries1.md",
+    "Queries2.md",
+    "Queries3.md",
+    "Queries4.md",
+    "Quiz_SQL_Constraints_ Attempt review.pdf",
+    "Quiz2.txt",
+    "quiz4 (1).txt",
+    "quiz3_test (1).txt",
+    "Java Interview Snippets _ 21Feb (1).txt",
+    "12-02-25_MCQs.txt",
+    "mcq/12-02-25_MCQs.txt",
+    "mcq/Quiz2.txt",
+    "mcq/Java Interview Snippets _ 21Feb (1).txt",
     "FS_Day21/Max_Score.md",
+    "FS_Day21/K_Most_Frquency.md",
     "FS_Day20/Binary_SubString.md",
-    "FS_Day21",
     "FS_Day19/Survivor.md",
     "FS_Day19/Segement_Tree_Min_Max.md",
     "FS_Day16/MinSteps.md",
     "FS_Day18/Segement_Tree.md",
     "FS_Day17/Rotten_Oranges.md",
-    "FS_Day20",
     "FS_Day19.md",
-    "FS_Day19",
-    "SegmentTreeTest.java",
-    "test.java",
-    "FS_Day1/[JAVA][OCA Oracle Certified Associate Java SE 8 Programmer I Study Guide Exam 1Z0-808].pdf",
-    "Solution.java",
-    "FS_Day18",
     "FS_Day17/Fenwick_Tree.md",
-    "FenWickTree.java",
-    "abc.java",
     "Untitled 1.md",
     "FS_Day15/RemoveKdigits.md",
     "FS_Day15/maxSum.md",
     "FS_Day14/Distinct_Shapes.md",
     "FS_Day14/Closed_Brackets.md",
-    "FS_Day12/ImpossibleOr_Bit_Manipulation.md",
-    "FS_Day1/FS_1.md",
-    "FS_Day12/Book_Store_Sliding_Window.md",
-    "FS_Day13/Min_Jumps.md",
-    "FS_Day13/SquaresOfSortedArray.md",
-    "FS_Day11/Binary_Trips.md",
-    "FS_Day11/Row_Column_Flips.md",
-    "FS_Day10/Counting_Bits.md",
-    "FS_Day9/Decode.md",
-    "FS_Day12/ScreenPlay_Two_Pointer.md",
-    "FS_Day9/RemoveOneDuplicate.md"
+    "FS_Day12/ImpossibleOr_Bit_Manipulation.md"
   ]
 }
