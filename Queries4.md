@@ -1,6 +1,3 @@
-Below is the complete markdown file containing each query with its question, expected output columns, and the SQL code exactly as provided:
-
----
 
 ## SQL JOIN Queries
 
@@ -190,10 +187,18 @@ FROM emp e1
 **Query:**
 
 ```sql
-USE test;
+USE test; 
+
+SELECT d.deptno, d.dname
+FROM dept d
+WHERE EXISTS (
+    SELECT 1
+    FROM emp e
+    WHERE e.deptno = d.deptno
+    AND e.sal > 2500
+);
 ```
 
-_(No additional SQL code provided)_
 
 ---
 
@@ -215,9 +220,15 @@ _(No additional SQL code provided)_
 
 ```sql
 USE test;
+SELECT d.dname, d.deptno
+FROM dept d
+WHERE NOT EXISTS (
+    SELECT 1
+    FROM emp e
+    WHERE e.deptno = d.deptno
+    AND e.sal < 1000
+);
 ```
-
-_(No additional SQL code provided)_
 
 ---
 
@@ -240,9 +251,15 @@ _(No additional SQL code provided)_
 
 ```sql
 USE test;
+SELECT e1.ename AS manager_name, COUNT(e2.empno) AS emp_count
+FROM emp e1
+JOIN emp e2 
+    ON e1.empno = e2.mgr
+JOIN dept d 
+    ON e1.deptno = d.deptno
+WHERE d.location = 'New York'
+GROUP BY e1.ename;
 ```
-
-_(No additional SQL code provided)_
 
 ---
 
@@ -264,9 +281,17 @@ _(No additional SQL code provided)_
 
 ```sql
 USE test;
-```
 
-_(No additional SQL code provided)_
+SELECT e.empno,e.ename, d.deptno, d.dname, d.location
+FROM emp e
+LEFT JOIN dept d ON e.deptno = d.deptno
+
+UNION
+
+SELECT e.empno,e.ename, d.deptno, d.dname, d.location
+FROM emp e
+RIGHT JOIN dept d ON e.deptno = d.deptno
+```
 
 ---
 
@@ -288,9 +313,12 @@ _(No additional SQL code provided)_
 
 ```sql
 USE test;
+FROM emp e
+INNER JOIN dept d
+ON e.deptno = d.deptno
+WHERE d.location = 'Chicago';
 ```
 
-_(No additional SQL code provided)_
 
 ---
 
@@ -312,9 +340,16 @@ _(No additional SQL code provided)_
 
 ```sql
 USE test;
+SELECT d.dname, 
+       COUNT(e.empno) AS num_employees,
+       SUM(e.sal) AS total_salary
+FROM dept d
+LEFT JOIN emp e
+ON d.deptno = e.deptno
+GROUP BY d.dname;
+
 ```
 
-_(No additional SQL code provided)_
 
 ---
 
@@ -336,9 +371,14 @@ _(No additional SQL code provided)_
 
 ```sql
 USE test;
+SELECT d.deptno, d.dname
+FROM emp e
+RIGHT JOIN dept d
+ON e.deptno = d.deptno
+WHERE e.empno IS NULL;
 ```
 
-_(No additional SQL code provided)_
+
 
 ---
 
@@ -360,9 +400,19 @@ _(No additional SQL code provided)_
 
 ```sql
 USE test;
+SELECT e.ename, d.dname
+FROM emp e
+LEFT JOIN dept d
+ON e.deptno = d.deptno
+
+UNION ALL
+
+SELECT e.ename, d.dname
+FROM emp e
+RIGHT JOIN dept d
+ON e.deptno = d.deptno;
 ```
 
-_(No additional SQL code provided)_
 
 ---
 
@@ -384,9 +434,13 @@ _(No additional SQL code provided)_
 
 ```sql
 USE test;
+
+SELECT e1.ename AS employee, e2.ename AS manager
+FROM emp e1
+LEFT JOIN emp e2
+ON e1.mgr = e2.empno;
 ```
 
-_(No additional SQL code provided)_
 
 ---
 
@@ -408,9 +462,11 @@ _(No additional SQL code provided)_
 
 ```sql
 USE test;
+SELECT d.deptno, d.dname, AVG(e.sal) AS avg_salary FROM emp e
+INNER JOIN dept d
+ON e.deptno = d.deptno
+GROUP BY d.deptno;
 ```
-
-_(No additional SQL code provided)_
 
 ---
 
@@ -432,9 +488,14 @@ _(No additional SQL code provided)_
 
 ```sql
 USE test;
+SELECT d.deptno, d.dname, COUNT(e.empno) AS emp_count
+FROM dept d
+INNER JOIN emp e
+ON d.deptno = e.deptno
+GROUP BY d.deptno, d.dname
+HAVING COUNT(e.empno) > 3;
 ```
 
-_(No additional SQL code provided)_
 
 ---
 
@@ -456,9 +517,14 @@ _(No additional SQL code provided)_
 
 ```sql
 USE test;
+
+SELECT e.ename, d.dname, e.hiredate
+FROM emp e
+INNER JOIN dept d
+ON e.deptno = d.deptno
+WHERE e.hiredate > '1980-12-31';
 ```
 
-_(No additional SQL code provided)_
 
 ---
 
@@ -481,9 +547,13 @@ _(No additional SQL code provided)_
 
 ```sql
 USE test;
+SELECT d.dname AS Department, d.location AS Location
+FROM dept d
+LEFT JOIN emp e
+ON d.deptno = e.deptno
+WHERE e.empno IS NULL;
 ```
 
-_(No additional SQL code provided)_
 
 ---
 
@@ -505,6 +575,11 @@ _(No additional SQL code provided)_
 
 ```sql
 USE test;
+SELECT ename,dname
+FROM emp e
+JOIN dept d
+WHERE e.deptno=d.deptno
+ORDER BY ename;
 ```
 
 

@@ -11,12 +11,14 @@
             "id": "5ff715d95009e154",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "mcq/Quiz_SQL_Constraints_ Attempt review.pdf"
+                "file": "Queries4.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Quiz_SQL_Constraints_ Attempt review"
+              "icon": "lucide-file",
+              "title": "Queries4"
             }
           }
         ]
@@ -168,10 +170,11 @@
   },
   "active": "5ff715d95009e154",
   "lastOpenFiles": [
-    "Queries4.md",
     "Queries3.md",
     "Queries2.md",
     "Queries1.md",
+    "Queries4.md",
+    "mcq/Quiz_SQL_Constraints_ Attempt review.pdf",
     "sirnotes/subqueries (1).sql",
     "sirnotes/student.sql",
     "sirnotes/select4.sql",
@@ -185,7 +188,6 @@
     "sirnotes/Queries3.md",
     "sirnotes/Queries2.md",
     "sirnotes/Queries1.md",
-    "sirnotes/joins.sql",
     "SirNotesSQL/Untitled.md",
     "mcq/12-02-25_MCQs.md",
     "mcq/quiz4 (1).md",
