@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Queries4.md",
+                "file": "Queries6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Queries4"
+              "title": "Queries6"
             }
           }
         ]
@@ -170,20 +170,24 @@
   },
   "active": "5ff715d95009e154",
   "lastOpenFiles": [
-    "Queries3.md",
-    "Queries2.md",
+    "Queries5.md",
+    "Queries6.md",
+    "Queries7.md",
+    "Queries8.md",
+    "sirnotes/Normalization.pptx",
+    "sirnotes/grantRevoke2.txt",
+    "sirnotes/grantRevoke.txt",
+    "sirnotes/ACID.pptx",
+    "Normalization.pptx",
+    "grantRevoke2.txt",
+    "grantRevoke.txt",
+    "ACID.pptx",
     "Queries1.md",
     "Queries4.md",
-    "mcq/Quiz_SQL_Constraints_ Attempt review.pdf",
-    "sirnotes/subqueries (1).sql",
-    "sirnotes/student.sql",
-    "sirnotes/select4.sql",
-    "sirnotes/select3 (1).sql",
-    "sirnotes/select2 (1).sql",
-    "sirnotes/select1 (1).sql",
-    "sirnotes/schema (1).sql",
-    "sirnotes/schema2.sql",
-    "sirnotes/scalarFunctions (1).sql",
+    "sirnotes/storedProcedures.sql",
+    "sirnotes/storedFunctions.sql",
+    "Queries3.md",
+    "Queries2.md",
     "sirnotes/Queries4.md",
     "sirnotes/Queries3.md",
     "sirnotes/Queries2.md",
@@ -200,10 +204,6 @@
     "FS_Day19/Survivor.md",
     "FS_Day19/Segement_Tree_Min_Max.md",
     "FS_Day16/MinSteps.md",
-    "FS_Day18/Segement_Tree.md",
-    "FS_Day17/Rotten_Oranges.md",
-    "FS_Day19.md",
-    "FS_Day17/Fenwick_Tree.md",
-    "Untitled 1.md"
+    "FS_Day18/Segement_Tree.md"
   ]
 }

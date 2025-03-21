@@ -1,7 +1,6 @@
 /* source filename to run from command line */
 /* source E:\Tapadia\Juno\RDBMS\schema.sql */
 
-USE Test;
 
 /* current database */
 SELECT DATABASE();
