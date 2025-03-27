@@ -60,3 +60,64 @@ Constraints:
 0 <= hi <= 106
 0 <= ki < people.length
 It is guaranteed that the queue can be reconstructed.
+
+```java
+import java.util.*;
+
+public class Solution {
+
+
+    public static void main(String[] args) {
+
+
+        Scanner sc = new Scanner(System.in);
+        // Read the number of people
+        int n = Integer.parseInt(sc.nextLine().trim());
+        int[][] people = new int[n][2];
+        
+        // Read n pairs of inputs
+        for (int i = 0; i < n; i++) {
+
+
+            String line = sc.nextLine().trim();
+            String[] parts = line.split(" ");
+            people[i][0] = Integer.parseInt(parts[0]); // height
+            people[i][1] = Integer.parseInt(parts[1]); // k value
+        }
+        
+        // Sort the array:
+        // - Descending order by height.
+        // - If heights are equal, sort ascending by k.
+        Arrays.sort(people, new Comparator<int[]>() {
+            public int compare(int[] a, int[] b) {
+
+
+                if (a[0] != b[0])
+                    return b[0] - a[0];
+                return a[1] - b[1];
+            }
+        });
+        
+        // Insert each person into the list at index = k value.
+        List<int[]> queue = new LinkedList<>();
+        for (int[] person : people) {
+
+
+            queue.add(person[1], person);
+        }
+        
+        // Print the result in the desired format.
+        System.out.print("[");
+        for (int i = 0; i < queue.size(); i++) {
+
+
+            int[] person = queue.get(i);
+            System.out.print("[" + person[0] + "," + person[1] + "]");
+            if (i != queue.size() - 1)
+                System.out.print(",");
+        }
+        System.out.println("]");
+    }
+
+}
+```

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FS_Day32/Rearrange_Queue.md",
+                "file": "FS_Day31/Treap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rearrange_Queue"
+              "title": "Treap"
             }
           }
         ]
@@ -170,20 +170,20 @@
   },
   "active": "5ff715d95009e154",
   "lastOpenFiles": [
+    "treap.java",
+    "FS_Day30/Wheel.md",
+    "FS_Day30/CarRecharge.md",
+    "sirnotes/Genesis MySQL.pdf",
+    "FS_Day32/Rearrange_Queue.md",
     "FS_Day32/Kth_Largest_Treap.md",
     "FS_Day32/Competition.md",
     "FS_Day31/Treap.md",
     "FS_Day31/MinHeap.md",
-    "FS_Day30/CarRecharge.md",
     "FS_Day30/IceCream_Pick.md",
-    "FS_Day30/Wheel.md",
     "FS_Day30",
-    "FS_Day32/Rearrange_Queue.md",
     "FS_Day32",
-    "treap.java",
     "FS_Day31/treap 1.java",
     "FS_Day31/treap.java",
-    "sirnotes/Genesis MySQL.pdf",
     "FS_Day31",
     "Queries6.md",
     "Queries5.md",
@@ -204,7 +204,6 @@
     "mcq/12-02-25_MCQs.md",
     "mcq/quiz4 (1).md",
     "mcq/quiz3_test (1).md",
-    "mcq/Quiz2.md",
-    "mcq/Java Interview Snippets _ 21Feb (1).md"
+    "mcq/Quiz2.md"
   ]
 }
