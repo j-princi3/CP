@@ -1,3 +1,4 @@
+#2-pointer 
 You are given an array of positive integers.
 
 Your task is to find a contiguous subarray where all elements are unique

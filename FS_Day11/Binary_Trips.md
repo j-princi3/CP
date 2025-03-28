@@ -1,3 +1,4 @@
+#binarysearch 
 You are given an array time where time[i] denotes the time taken by the ith bus to complete one trip.
 
 Each bus can make multiple trips successively; that is, the next trip can start immediately after completing the current trip. 

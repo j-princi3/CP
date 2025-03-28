@@ -1,3 +1,5 @@
+#2-pointer 
+
 In Turkey, an ice cream parlour gives an offer to a lucky kid.
 The parlour keep N icecream cups in a row, and there are different flavours 
 of icecreams, where i-th cup filled with the flavour[i] type of ice cream.

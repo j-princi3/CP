@@ -1,3 +1,4 @@
+#2-pointer 
 Tata motors released a new ELECTRIC CAR, 
 which recharges its battery based on the vehicle movement at specific points 
 along the road when vehicle passes those points at a specified speed. 

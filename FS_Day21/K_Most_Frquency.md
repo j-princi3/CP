@@ -1,3 +1,5 @@
+#comparators
+
 You are given an integer array containing numbers, and an integer k.
 
 Your task is to return the k most frequent elements in the array.

@@ -1,3 +1,4 @@
+#bitmanipulation 
 /*Given a positive integer n, you can apply one of the following operations:
 
 If n is even, replace n with n / 2.

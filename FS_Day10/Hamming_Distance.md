@@ -1,3 +1,5 @@
+#bitmanipulation #bruteforce
+
 Mr.Sathya is playing with numbers he converts the decimal to binary 
 and try to find number of positions at which the corresponding
 bits are different. 

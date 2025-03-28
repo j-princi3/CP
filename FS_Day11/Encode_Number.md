@@ -1,3 +1,4 @@
+#bitmanipulation 
 Birbal is creating a new binary code system BBC (Birbal Binary Code) as follows:
 
 I	f(I)

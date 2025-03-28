@@ -1,3 +1,4 @@
+#bitmanipulation 
 You are given a rectangular grid of M x N bulbs arranged on a wall. 
 Each bulb can emit either blue light or red light, represented as:
 -> 0 → Blue Light

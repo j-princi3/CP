@@ -1,3 +1,4 @@
+#dfs 
 Viraj Aanand is a wedding planner, He ordered his assistant to decorate a wall.
 The decorator plans to decorate the wall with two different colored balloons.
 The wall size is M*N, The decorator can decorate the wall using M*N balloons

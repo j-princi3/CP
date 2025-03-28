@@ -1,3 +1,4 @@
+#bitmanipulation 
 You are given an integer N. Your task is to return an array ans of length N + 1 
 where each ans[i] represents the number of 1's in the binary representation of i.
 

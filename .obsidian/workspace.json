@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5ff715d95009e154",
+            "id": "1c9120536f9b1b31",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "FS_Day33/Master_Chef.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Master_Chef"
             }
           }
         ]
@@ -164,9 +168,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f65c9854280d6194",
+  "active": "1c9120536f9b1b31",
   "lastOpenFiles": [
-    "FS_Day22-29_rdbms/grandtest_customer_orders.md",
+    "FS_Day33/Greater_Artifact _Display.md",
+    "FS_Day32/Rearrange_Queue.md",
+    "FS_Day32/Kth_Largest_Treap.md",
+    "FS_Day32/Competition.md",
+    "FS_Day31/Treap.md",
+    "FS_Day31/MinHeap.md",
+    "FS_Day30/Wheel.md",
+    "FS_Day30/IceCream_Pick.md",
+    "FS_Day30/CarRecharge.md",
+    "FS_Day21/Max_Score.md",
+    "FS_Day21/K_Most_Frquency.md",
+    "FS_Day20/Binary_SubString.md",
+    "FS_Day19/Survivor.md",
+    "FS_Day19/Segement_Tree_Min_Max.md",
+    "FS_Day18/Segement_Tree.md",
+    "FS_Day17/Fenwick_Tree.md",
+    "FS_Day17/Rotten_Oranges.md",
+    "FS_Day16/MinSteps.md",
+    "FS_Day15/RemoveKdigits.md",
+    "FS_Day15/maxSum.md",
+    "FS_Day14/Distinct_Shapes.md",
+    "FS_Day14/Closed_Brackets.md",
+    "FS_Day13/SquaresOfSortedArray.md",
+    "FS_Day13/Min_Jumps.md",
+    "FS_Day12/ScreenPlay_Two_Pointer.md",
+    "FS_Day12/ImpossibleOr_Bit_Manipulation.md",
+    "basicpython/Genesis Basic Python.pdf",
+    "basicpython/Basic Python assignment.pdf",
     "FS_Day22-29_rdbms/customer_orders.sql",
     "basicpython/Apps/PackageDemo/__pycache__/mod2.cpython-39.pyc",
     "basicpython/Apps/PackageDemo/__pycache__/mod2.cpython-37.pyc",
@@ -174,33 +205,6 @@
     "basicpython/Apps/PackageDemo/__pycache__/mod1.cpython-39.pyc",
     "basicpython/Apps/PackageDemo/__pycache__/mod1.cpython-37.pyc",
     "basicpython/Apps/PackageDemo/__pycache__/mod1.cpython-34.pyc",
-    "basicpython/Apps/PackageDemo/__pycache__/__init__.cpython-39.pyc",
-    "basicpython/Apps/PackageDemo/__pycache__/__init__.cpython-37.pyc",
-    "basicpython/Apps/PackageDemo/__pycache__/__init__.cpython-34.pyc",
-    "FS_Day33/Greater_Artifact _Display.md",
-    "FS_Day33/Master_Chef.md",
-    "FS_Day31/Treap.md",
-    "FS_Day30/Wheel.md",
-    "FS_Day30/CarRecharge.md",
-    "FS_Day32/Rearrange_Queue.md",
-    "FS_Day32/Kth_Largest_Treap.md",
-    "FS_Day32/Competition.md",
-    "FS_Day31/MinHeap.md",
-    "FS_Day30/IceCream_Pick.md",
-    "Queries6.md",
-    "Queries5.md",
-    "Queries7.md",
-    "Queries8.md",
-    "Queries1.md",
-    "Queries4.md",
-    "Queries3.md",
-    "Queries2.md",
-    "sirnotes/Queries4.md",
-    "sirnotes/Queries3.md",
-    "sirnotes/Queries2.md",
-    "sirnotes/Queries1.md",
-    "SirNotesSQL/Untitled.md",
-    "mcq/12-02-25_MCQs.md",
-    "mcq/quiz4 (1).md"
+    "basicpython/Apps/PackageDemo/__pycache__/__init__.cpython-39.pyc"
   ]
 }

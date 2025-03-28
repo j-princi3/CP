@@ -1,3 +1,4 @@
+#bitmanipulation 
 AlphaCipher is a string formed from another string by rearranging its letters
 
 You are given a string S.

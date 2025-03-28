@@ -1,3 +1,4 @@
+#slidingwindow 
 There is a bookstore owner that has a store open for n minutes. Every minute, some number of customers enter the store.
 You are given an integer array customers of length n where customers[i] is the number of the customer
 that enters the store at the start of the ith minute and all those customers leave after the end of that minute.

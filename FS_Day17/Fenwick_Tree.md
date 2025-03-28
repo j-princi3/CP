@@ -1,3 +1,4 @@
+#tree
 Malika taught a new fun time program practice for Engineering Students.
 As a part of this she has given set of N numbers, and asked the students 
 to perform the operations listed below:
