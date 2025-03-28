@@ -11,14 +11,10 @@
             "id": "5ff715d95009e154",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FS_Day31/Treap.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Treap"
+              "title": "New tab"
             }
           }
         ]
@@ -168,30 +164,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5ff715d95009e154",
+  "active": "f65c9854280d6194",
   "lastOpenFiles": [
-    "treap.java",
+    "FS_Day22-29_rdbms/grandtest_customer_orders.md",
+    "FS_Day22-29_rdbms/customer_orders.sql",
+    "basicpython/Apps/PackageDemo/__pycache__/mod2.cpython-39.pyc",
+    "basicpython/Apps/PackageDemo/__pycache__/mod2.cpython-37.pyc",
+    "basicpython/Apps/PackageDemo/__pycache__/mod2.cpython-34.pyc",
+    "basicpython/Apps/PackageDemo/__pycache__/mod1.cpython-39.pyc",
+    "basicpython/Apps/PackageDemo/__pycache__/mod1.cpython-37.pyc",
+    "basicpython/Apps/PackageDemo/__pycache__/mod1.cpython-34.pyc",
+    "basicpython/Apps/PackageDemo/__pycache__/__init__.cpython-39.pyc",
+    "basicpython/Apps/PackageDemo/__pycache__/__init__.cpython-37.pyc",
+    "basicpython/Apps/PackageDemo/__pycache__/__init__.cpython-34.pyc",
+    "FS_Day33/Greater_Artifact _Display.md",
+    "FS_Day33/Master_Chef.md",
+    "FS_Day31/Treap.md",
     "FS_Day30/Wheel.md",
     "FS_Day30/CarRecharge.md",
-    "sirnotes/Genesis MySQL.pdf",
     "FS_Day32/Rearrange_Queue.md",
     "FS_Day32/Kth_Largest_Treap.md",
     "FS_Day32/Competition.md",
-    "FS_Day31/Treap.md",
     "FS_Day31/MinHeap.md",
     "FS_Day30/IceCream_Pick.md",
-    "FS_Day30",
-    "FS_Day32",
-    "FS_Day31/treap 1.java",
-    "FS_Day31/treap.java",
-    "FS_Day31",
     "Queries6.md",
     "Queries5.md",
     "Queries7.md",
     "Queries8.md",
-    "sirnotes/Normalization.pptx",
-    "sirnotes/grantRevoke2.txt",
-    "sirnotes/grantRevoke.txt",
     "Queries1.md",
     "Queries4.md",
     "Queries3.md",
@@ -202,8 +201,6 @@
     "sirnotes/Queries1.md",
     "SirNotesSQL/Untitled.md",
     "mcq/12-02-25_MCQs.md",
-    "mcq/quiz4 (1).md",
-    "mcq/quiz3_test (1).md",
-    "mcq/Quiz2.md"
+    "mcq/quiz4 (1).md"
   ]
 }
