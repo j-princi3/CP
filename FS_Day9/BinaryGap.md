@@ -48,67 +48,40 @@ There is only one 1, so no adjacent pairs exist.
 Output is 0.
 
 ```java
-import java.util.*;
-class Decode{
-    public static void main(String args[]){
-        Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
-        int arr[]=new int[n];
-        for(int i=0;i<n;i++){
-            arr[i]=sc.nextInt();
-        }
-        int nextRange=sc.nextInt();
-        System.out.print(getDecoded(arr,n,nextRange));
-    }
-    static ArrayList<Integer> getDecoded(int arr[],int n,int range){
-        ArrayList<Integer> res=new ArrayList<>();
+import java.util.Scanner;
+
+public class AdjacentOnesDistance {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        sc.close();
         
-        if(range>=0){
-            for(int i=0;i<n;i++){
-                int j=1;
-                int sum=0;
-                int index=i+j;
-                while(j<=range){
-                    if(index<n){
-                        sum+=arr[index];
-                    }else{
-                        index=0;
-                        sum+=arr[index];
-                    }
-                    index++;
-                    j++;
+        // Convert n to its binary string representation.
+        // Example: 22 --> "10110"
+        String binary = Integer.toBinaryString(n);
+        
+        // Initialize variables to store the maximum distance and the last seen position of '1'
+        int maxDistance = 0;
+        int prevPosition = -1;
+        
+        // Iterate over the binary string. We treat the position index starting from 0 on the left.
+        // However, if you need to consider the position as shown in the explanation (starting from 1),
+        // we add 1 to the index.
+        for (int i = 0; i < binary.length(); i++) {
+            if (binary.charAt(i) == '1') {
+                // if a previous '1' was found, calculate the distance.
+                if (prevPosition != -1) {
+                    int distance = (i - prevPosition);  // distance in index difference
+                    maxDistance = Math.max(maxDistance, distance);
                 }
-                res.add(sum);
-            }
-        }else{
-            for(int i=0;i<n;i++){
-                int j=-1;
-                int sum=0;
-                int index=i+j;
-                while(j>=range){
-                    if(index>=0){
-                        sum+=arr[index];
-                    }else{
-                        index=n-1;
-                        sum+=arr[index];
-                    }
-                    index--;
-                    j--;
-                }
-                res.add(sum);
+                // update the previous position where '1' was seen
+                prevPosition = i;
             }
         }
-            
-        // for(int i=0;i<n;i++){
-        //     int j=1;
-        //     if(range<0){
-        //         j=-1;
-        //     }
-        //     while(j<=range){
-        //         if(i+j>)
-        //     }
-        // }
-        return res;
+        
+        // If there are no adjacent ones then maxDistance remains 0.
+        System.out.println(maxDistance);
     }
 }
+
 ```

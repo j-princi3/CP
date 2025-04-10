@@ -44,3 +44,54 @@ Sample Input-2:
 Sample Output-2:
 ----------------
 0
+
+```java
+import java.util.Scanner;
+
+public class LongestTreeArrangement {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        int n = sc.nextInt();
+        int[] heights = new int[n];
+        for (int i = 0; i < n; i++) {
+            heights[i] = sc.nextInt();
+        }
+        sc.close();
+        
+        // A valid mountain arrangement must have at least 3 trees.
+        if (n < 3) {
+            System.out.println(0);
+            return;
+        }
+        
+        int longest = 0;
+        
+        // Iterate through the array to find a "peak"
+        for (int i = 1; i < n - 1; i++) {
+            // Check if the current element is a peak
+            if (heights[i] > heights[i - 1] && heights[i] > heights[i + 1]) {
+                int left = i;
+                int right = i;
+                
+                // Move leftwards while the sequence is strictly increasing
+                while (left > 0 && heights[left - 1] < heights[left]) {
+                    left--;
+                }
+                
+                // Move rightwards while the sequence is strictly decreasing
+                while (right < n - 1 && heights[right] > heights[right + 1]) {
+                    right++;
+                }
+                
+                int currentMountainLength = right - left + 1;
+                longest = Math.max(longest, currentMountainLength);
+            }
+        }
+        
+        // If no valid mountain arrangement exists, print 0.
+        System.out.println(longest >= 3 ? longest : 0);
+    }
+}
+
+```

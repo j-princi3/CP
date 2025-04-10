@@ -71,5 +71,67 @@ n == code.length
 -(n - 1) <= k <= n - 1
 
 ```java
-
+import java.util.*;
+class Decode{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int arr[]=new int[n];
+        for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
+        }
+        int nextRange=sc.nextInt();
+        System.out.print(getDecoded(arr,n,nextRange));
+    }
+    static ArrayList<Integer> getDecoded(int arr[],int n,int range){
+        ArrayList<Integer> res=new ArrayList<>();
+        
+        if(range>=0){
+            for(int i=0;i<n;i++){
+                int j=1;
+                int sum=0;
+                int index=i+j;
+                while(j<=range){
+                    if(index<n){
+                        sum+=arr[index];
+                    }else{
+                        index=0;
+                        sum+=arr[index];
+                    }
+                    index++;
+                    j++;
+                }
+                res.add(sum);
+            }
+        }else{
+            for(int i=0;i<n;i++){
+                int j=-1;
+                int sum=0;
+                int index=i+j;
+                while(j>=range){
+                    if(index>=0){
+                        sum+=arr[index];
+                    }else{
+                        index=n-1;
+                        sum+=arr[index];
+                    }
+                    index--;
+                    j--;
+                }
+                res.add(sum);
+            }
+        }
+            
+        // for(int i=0;i<n;i++){
+        //     int j=1;
+        //     if(range<0){
+        //         j=-1;
+        //     }
+        //     while(j<=range){
+        //         if(i+j>)
+        //     }
+        // }
+        return res;
+    }
+}
 ```
