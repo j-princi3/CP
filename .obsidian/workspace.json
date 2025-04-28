@@ -25,15 +25,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FS_Day22-29_rdbms/grandtest_customer_orders.md",
+                "file": "GrandTest/Queries.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "grandtest_customer_orders"
+              "title": "Queries"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,8 +181,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1c9120536f9b1b31",
+  "active": "9f5f618e296aa091",
   "lastOpenFiles": [
+    "FS_Day22-29_rdbms/grandtest_customer_orders.md",
+    "InClass/Day38_Threads/Threads.pdf",
     "InClass/Day38_Threads/Demo5.java",
     "FS_Day37/Top_K_Frequent_Words.md",
     "FS_Day37/Longest_Word.md",
@@ -198,7 +201,6 @@
     "Weather.java",
     "sjd.java",
     "FS_Day1/[JAVA][OCA Oracle Certified Associate Java SE 8 Programmer I Study Guide Exam 1Z0-808].pdf",
-    "FS_Day22-29_rdbms/grandtest_customer_orders.md",
     "FS_Day18/Segement_Tree.md",
     "FS_Day17/Fenwick_Tree.md",
     "FS_Day19/Segement_Tree_Min_Max.md",
@@ -216,8 +218,6 @@
     "FS_Day11/Row_Column_Flips.md",
     "FS_Day11/PrimeSet_Bits.md",
     "FS_Day11/Encode_Number.md",
-    "FS_Day9/WhatsApp Image 2025-03-03 at 16.13.28.jpeg",
-    "PalindromePermutation.java",
-    "test.java"
+    "FS_Day9/WhatsApp Image 2025-03-03 at 16.13.28.jpeg"
   ]
 }
