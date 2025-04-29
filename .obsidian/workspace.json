@@ -11,30 +11,17 @@
             "id": "1c9120536f9b1b31",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "InClass/Day38_Threads/Threads.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Threads"
-            }
-          },
-          {
-            "id": "9f5f618e296aa091",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "GrandTest/Queries.md",
+                "file": "eventbrite/2025Questions/InterviewQuestionRound2.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Queries"
+              "title": "InterviewQuestionRound2.md"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,43 +168,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9f5f618e296aa091",
+  "active": "1c9120536f9b1b31",
   "lastOpenFiles": [
-    "FS_Day22-29_rdbms/grandtest_customer_orders.md",
-    "InClass/Day38_Threads/Threads.pdf",
-    "InClass/Day38_Threads/Demo5.java",
-    "FS_Day37/Top_K_Frequent_Words.md",
-    "FS_Day37/Longest_Word.md",
-    "FS_Day37",
-    "FS_Day36/SearchWord.md",
+    "GrandTest2(hopeSo)/queries.md.md",
+    "eventbrite/2025Questions/InterviewQuestionRound2.md.md",
+    "GrandTest2(hopeSo)/MultiThreading_Quiz.md.md",
+    "mcq/oca_chap4.md",
+    "mcq/Quiz_SQL_Constraints.md",
+    "mcq/Quiz_SQL_Constraints_ Attempt review.pdf",
+    "eventbrite/PYQ's/1.md",
+    "eventbrite/PYQ's",
+    "eventbrite/2025Questions/Question_1_Server Connection.md",
+    "eventbrite/2025Questions/Question_2_ Maximum Reveal Difficulty.md",
+    "eventbrite/2025Questions",
+    "FS_Day42_aptitude/aptitude_formulas/WhatsApp Image 2025-04-25 at 12.59.34 (1).jpeg",
     "FS_Day36/IndexPairs.md",
-    "FS_Day36",
-    "mcq/oca_chap2.md",
-    "Test.class",
-    "Test.java",
-    "mcq/Java Interview Snippets _ 21Feb (1).md",
-    "mcq/oca_chap1.md",
-    "Weather.class",
-    "Weather.java",
-    "sjd.java",
-    "FS_Day1/[JAVA][OCA Oracle Certified Associate Java SE 8 Programmer I Study Guide Exam 1Z0-808].pdf",
-    "FS_Day18/Segement_Tree.md",
-    "FS_Day17/Fenwick_Tree.md",
-    "FS_Day19/Segement_Tree_Min_Max.md",
-    "FS_Day17/Rotten_Oranges.md",
-    "FS_Day16/MinSteps.md",
-    "FS_Day15/RemoveKdigits.md",
-    "FS_Day15/maxSum.md",
-    "FS_Day14/Distinct_Shapes.md",
-    "FS_Day14/Closed_Brackets.md",
-    "FS_Day13/SquaresOfSortedArray.md",
-    "FS_Day13/Min_Jumps.md",
-    "FS_Day12/ScreenPlay_Two_Pointer.md",
-    "FS_Day12/ImpossibleOr_Bit_Manipulation.md",
-    "FS_Day12/Book_Store_Sliding_Window.md",
-    "FS_Day11/Row_Column_Flips.md",
-    "FS_Day11/PrimeSet_Bits.md",
-    "FS_Day11/Encode_Number.md",
-    "FS_Day9/WhatsApp Image 2025-03-03 at 16.13.28.jpeg"
+    "FS_Day42_aptitude/aptitude_formulas/WhatsApp Image 2025-04-25 at 12.59.36.jpeg",
+    "FS_Day42_aptitude/aptitude_formulas/WhatsApp Image 2025-04-25 at 12.59.35.jpeg",
+    "FS_Day42_aptitude/aptitude_formulas/WhatsApp Image 2025-04-25 at 12.59.35 (1).jpeg",
+    "FS_Day42_aptitude/aptitude_formulas/WhatsApp Image 2025-04-25 at 12.59.34.jpeg",
+    "FS_Day42_aptitude/aptitude_formulas/WhatsApp Image 2025-04-25 at 12.59.33.jpeg",
+    "FS_Day42_aptitude/aptitude_formulas/WhatsApp Image 2025-04-25 at 12.59.33 (1).jpeg",
+    "FS_Day42_aptitude/aptitude_formulas/WhatsApp Image 2025-04-25 at 12.59.32.jpeg",
+    "FS_Day42_aptitude/aptitude_formulas/WhatsApp Image 2025-04-25 at 12.59.32 (1).jpeg",
+    "FS_Day42_aptitude/aptitude_formulas/WhatsApp Image 2025-04-25 at 12.59.31.jpeg",
+    "FS_Day42_aptitude/aptitude_formulas",
+    "aptitude",
+    "FS_Day44/ConnectedComponentsBFS.md.md",
+    "FS_Day44/ConnectedComponentsDFS.md.md",
+    "FS_Day44/CycleDetection.md.md",
+    "FS_Day44/LAN.md.md",
+    "FS_Day43/Connected_Components.md.md",
+    "FS_Day42/Untitled.md",
+    "FS_Day43/Untitled 1.md",
+    "GrandTest2(hopeSo)",
+    "FS_Day42/Untitled 1.md",
+    "FS_Day41/NumOfIslands.md.md",
+    "FS_Day44",
+    "FS_Day43",
+    "FS_Day42_aptitude",
+    "FS_Day41/NoDistinctIslands.md.md",
+    "FS_Day40/Smallest_Equivalent_String.md.md",
+    "FS_Day40/DSU_Test.md.md",
+    "FS_Day39/SuffixTree.md.md",
+    "FS_Day39/Distinct_SubStrings_SuffixTrie.md.md",
+    "FS_Day39/carRecharge.md.md",
+    "GrandTest1/Queries.md",
+    "FS_Day41",
+    "GrandTest1/MaxScorePathHighway.md"
   ]
 }
