@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "eventbrite/2025Questions/InterviewQuestionRound2.md.md",
+                "file": "FS_Day45/LowestCommonAnsestor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "InterviewQuestionRound2.md"
+              "title": "LowestCommonAnsestor"
             }
           }
         ]
@@ -170,8 +170,23 @@
   },
   "active": "1c9120536f9b1b31",
   "lastOpenFiles": [
-    "GrandTest2(hopeSo)/queries.md.md",
+    "FS_Day45/FindingBridges.md",
+    "FS_Day44/LAN.md",
+    "FS_Day44/CycleDetection.md",
+    "FS_Day44/ConnectedComponentsDFS.md",
+    "FS_Day44/ConnectedComponentsBFS.md",
+    "FS_Day43/Connected_Components.md",
+    "FS_Day41/NumOfIslands.md",
+    "FS_Day41/NoDistinctIslands.md",
+    "FS_Day40/Smallest_Equivalent_String.md",
+    "FS_Day40/DSU_Test.md",
+    "FS_Day39/SuffixTree.md",
+    "FS_Day39/Distinct_SubStrings_SuffixTrie.md",
+    "FS_Day39/carRecharge.md",
+    "FS_Day38/Longest_Common_Prefix.md",
+    "FS_Day33/Greater_Artifact _Display.md",
     "eventbrite/2025Questions/InterviewQuestionRound2.md.md",
+    "GrandTest2(hopeSo)/queries.md.md",
     "GrandTest2(hopeSo)/MultiThreading_Quiz.md.md",
     "mcq/oca_chap4.md",
     "mcq/Quiz_SQL_Constraints.md",
@@ -194,27 +209,12 @@
     "FS_Day42_aptitude/aptitude_formulas/WhatsApp Image 2025-04-25 at 12.59.31.jpeg",
     "FS_Day42_aptitude/aptitude_formulas",
     "aptitude",
-    "FS_Day44/ConnectedComponentsBFS.md.md",
-    "FS_Day44/ConnectedComponentsDFS.md.md",
-    "FS_Day44/CycleDetection.md.md",
-    "FS_Day44/LAN.md.md",
-    "FS_Day43/Connected_Components.md.md",
     "FS_Day42/Untitled.md",
     "FS_Day43/Untitled 1.md",
     "GrandTest2(hopeSo)",
-    "FS_Day42/Untitled 1.md",
-    "FS_Day41/NumOfIslands.md.md",
     "FS_Day44",
     "FS_Day43",
     "FS_Day42_aptitude",
-    "FS_Day41/NoDistinctIslands.md.md",
-    "FS_Day40/Smallest_Equivalent_String.md.md",
-    "FS_Day40/DSU_Test.md.md",
-    "FS_Day39/SuffixTree.md.md",
-    "FS_Day39/Distinct_SubStrings_SuffixTrie.md.md",
-    "FS_Day39/carRecharge.md.md",
-    "GrandTest1/Queries.md",
-    "FS_Day41",
-    "GrandTest1/MaxScorePathHighway.md"
+    "FS_Day41"
   ]
 }
