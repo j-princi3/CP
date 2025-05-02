@@ -1,4 +1,4 @@
-uIn computer networks we have star topology. 
+In computer networks we have star topology. 
 Which is like an undirected graph consisting of n switces labeled from 1 to n. 
 A Start topology is a LAN where there is one center node and exactly n-1 connections 
 that connect the ceter switch with every other switch.
