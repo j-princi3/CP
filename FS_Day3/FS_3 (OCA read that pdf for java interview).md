@@ -1,0 +1,15 @@
+#oca
+-> why is Constructor important in java
+-> why do we use getter and setter in constructor?(used for data encapsulation and data hiding if data should be protected)
+-> If interviewer ask to design a application or program try using classes and object
+-> ask not what system does ,ask what it to (data to be captured)
+-> what is encapsulation
+-> can a constructor in a class can be private? (Yes, it can be private)
+-> All primitive datatypes have have some default value, but non primitive data values will be set as null.. That's why default constructor is created because it creates default values same like primitive datatype
+->Default constructor does not exist once the user defined constructor is created (it can parameterized or non parameterized) 
+-> If a function have return type then it is not a constructor
+-> Why doesn't constructor have return type?(by default the constructor type is object type)
+-> Object can be initialized with 1) constructor 2)Initialize block
+-> Initialize block can be of two types 1)static block (initialize when object is created) 2)Instance block(initialize when object is create ) 
+-> static block execute first then instance block then constructor
+-> Object is printed use toString , and if object is printed without to string method it prints object name and hexadecimal number

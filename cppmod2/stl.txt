@@ -1,0 +1,35 @@
+The STL is a set of abstract datatypes, functions, and algorithms designed to 
+handle user-specified datatypes. Each of the abstract datatypes also contains
+useful functions, including overloaded operators, to access them. The spirit of
+the Standard Template Library is the idea of generic programming - 
+the implementation of algorithms or data structures without being dependent on 
+the type of data being handled. For instance, you can use the STL vector 
+container to store a vector (resizable array) of any object you desire. 
+In non-STL C++, you can use arrays to get a similar feature, but arrays are 
+limited to a single type of data structure. Moreover, the STL 
+provides some nice features such as handling memory for you (no memory leaks),
+and it is also safer (no buffer overflow issues when using vectors or similar
+data structures).
+
+The STL offers the programmer several advantages in addition to safety and 
+memory management. First, having the predefined types simplifies program design;
+no longer does a programmer have to write his own class to handle vectors, 
+queues, lists, or associative arrays. Second, it offers powerful type-independent
+algorithms, including the obvious sorting and searching. The STL does so at 
+very low cost to program performance, no more than any other templated class or
+function, and it's less likely that using a library function will lead to bugs 
+than using your own code.
+
+Advantages:
+
+1.Support of Generic programming
+
+2.Deliver fast, efficient, and robust code
+
+3.Easy to use
+
+Disadvantages:
+
+1.Template by its nature exposes its implementation
+
+2.No information hiding
